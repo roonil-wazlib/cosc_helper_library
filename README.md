@@ -4,7 +4,7 @@ A library of functions I frequently write to analyse algorithms for 262. Will ad
 
 # runtime
 
-Module containing methods for analyse the time an algorithm takes to run, depending on ls input size.
+Module containing methods to analyse the time an algorithm takes to run, depending on list input size.
 Contents include methods for timing a single run on random input, getting an average time accross n runs on random input,
 or timing a run on a given input list.
 
