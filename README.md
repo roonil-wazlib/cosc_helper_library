@@ -1,6 +1,6 @@
 # COSC Helper:
 
-A library of functions I frequently write to analyse algorithms for 261/262. Updated every time a new lab is assigned with boring repetitive content so I can spend more time on the fun stuff.
+A library of functions I frequently write to help solve lab problems in 261/262 - eg for evaluating algorithm complexity. Updated every time a new lab is assigned with new repetitive content so I can spend more time on the fun stuff.
 
 # runtime
 
