@@ -6,7 +6,7 @@ def plot_comparison(func1, func2, x_limit, repetitions):
     first_times = []
     second_times = []
     sizes = []
-    for i in range(x_limit):
+    for i in range(1, x_limit):
         ls = runtime.create_input(i)
         ftime = 0
         stime = 0
@@ -23,7 +23,7 @@ def plot_comparison(func1, func2, x_limit, repetitions):
 def plot(func, x_limit, repetitions):
     times = []
     sizes = []
-    for i in range(x_limit):
+    for i in range(1, x_limit):
         ls = runtime.create_input(i)
         total_time = 0
         for _ in range(repetitions):
