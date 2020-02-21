@@ -15,4 +15,4 @@ a single algorithm, and for comparing runtimes of two algorithms on input sizes 
 
 # languages
 
-Module containing methods for answering languages questions in lab 1 so I don't have to do them all by hand. Includes stuff like finding all string combinations of a certain length given an alphabet, concatenating two languages and evaluating the number of different combinations of strings up to or at a given string length.
+Module containing methods for answering languages questions so I don't have to do them all by hand. Includes stuff like finding all string combinations of a certain length given an alphabet, concatenating two languages and evaluating the number of different combinations of strings up to or at a given string length.
