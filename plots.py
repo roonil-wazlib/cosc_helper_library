@@ -2,7 +2,7 @@ from . import runtime
 import matplotlib.pyplot as plt
 
 
-def plot_comparison(func1, func2, x_limit, repetitions):
+def plot_comparison(func1, func2, x_limit, repetitions=1):
     first_times = []
     second_times = []
     sizes = []
@@ -20,7 +20,7 @@ def plot_comparison(func1, func2, x_limit, repetitions):
     plt.show()    
 
 
-def plot(func, x_limit, repetitions):
+def plot(func, x_limit, repetitions=1):
     times = []
     sizes = []
     for i in range(1, x_limit):
@@ -34,7 +34,7 @@ def plot(func, x_limit, repetitions):
     plt.show()
     
     
-def plot_func_single_value_input(func, x_limit, repetitions):
+def plot_func_single_value_input(func, x_limit, repetitions=1):
     times = []
     sizes = []
     for i in range(1, int(x_limit/4)):

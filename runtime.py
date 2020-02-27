@@ -41,10 +41,10 @@ def get_time_on_value(func, num):
     return end - start
 
 
-def get_avg_of_n_times_on_value(func, n, num):
+def get_avg_of_n_times_on_value(func, n, input_size):
     total_time = 0
     for i in range(n):
-        total_time += get_time_on_value(func, num)
+        total_time += get_time_on_value(func, input_size)
     total_time /= n
     return total_time    
         
