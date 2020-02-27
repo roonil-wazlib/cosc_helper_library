@@ -1,6 +1,6 @@
 # COSC Helper:
 
-A library of functions I frequently write to analyse algorithms for 262. Will add more modules as I progress through the course.
+A library of functions I frequently write to help solve lab problems in 261/262 - eg for evaluating algorithm complexity. Updated every time a new lab is assigned with new repetitive content so I can spend more time on the fun stuff.
 
 # runtime
 
@@ -12,3 +12,7 @@ or timing a run on a given input list.
 
 Module containing methods for plotting runtimes using matplotlib. Currently includes methods for plotting times taken by
 a single algorithm, and for comparing runtimes of two algorithms on input sizes up to a given x_limit.
+
+# languages
+
+Module containing methods for answering languages questions so I don't have to do them all by hand. Includes stuff like finding all string combinations of a certain length given an alphabet, concatenating two languages and evaluating the number of different combinations of strings up to or at a given string length.
