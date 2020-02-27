@@ -32,3 +32,16 @@ def plot(func, x_limit, repetitions):
         sizes.append(i)
     plt.plot(sizes, times)
     plt.show()
+    
+    
+def plot_func_single_value_input(func, x_limit, repetitions):
+    times = []
+    sizes = []
+    for i in range(1, int(x_limit/4)):
+        total_time = 0
+        for _ in range(repetitions):
+            total_time += runtime.get_time_on_value(func, i*4)
+        times.append(total_time/repetitions)
+        sizes.append(i)
+    plt.plot(sizes, times)
+    plt.show()
